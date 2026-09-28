@@ -1,0 +1,3 @@
+# Preserve the original source files byte-for-byte (CRLF line endings,
+# ISO-8859-1 accented characters). Git must not normalize them.
+src/**/*.m -text
